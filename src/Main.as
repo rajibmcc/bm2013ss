@@ -20,6 +20,12 @@ package
 		protected function onAddedToStage(event:Event):void
 		{
 			// TODO Auto-generated method stub
+			addEventListener(Event.ENTER_FRAME, onEnterFrame);
+		}
+		
+		protected function onEnterFrame(event:Event):void
+		{
+			// TODO Auto-generated method stub
 			
 		}
 	}
