@@ -1,6 +1,7 @@
 package
 {
 	import flash.display.Sprite;
+	import flash.events.Event;
 	
 	public class Main extends Sprite
 	{
@@ -12,6 +13,14 @@ package
 			//second comment
 			
 			//third comment
+			
+			addEventListener(Event.ADDED_TO_STAGE, onAddedToStage);
+		}
+		
+		protected function onAddedToStage(event:Event):void
+		{
+			// TODO Auto-generated method stub
+			
 		}
 	}
 }
